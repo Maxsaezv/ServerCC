@@ -1,0 +1,36 @@
+{
+  "name": "colocoloapi",
+  "version": "1.0.0",
+  "description": "API for Colo-Colo medical App using MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index",
+    "client-install": "npm install --prefix client",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run start\" \"npm run client\""
+  },
+  "author": "John Bidwell",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "concurrently": "^5.0.1",
+    "cors": "^2.8.5",
+    "custom-env": "^1.0.0",
+    "express": "^4.17.1",
+    "http-errors": "^1.7.2",
+    "is-empty": "^1.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.8.1",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0",
+    "redux": "^4.0.4",
+    "redux-bees": "^0.1.11",
+    "redux-devtools-extension": "^2.13.8",
+    "validator": "^12.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}

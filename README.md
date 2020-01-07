@@ -1,2 +1,11 @@
-# ServerCC
-Server API cc
+cd client 
+
+npm install 
+
+cd .. 
+
+npm install 
+
+npm run dev 
+
+
