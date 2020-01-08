@@ -1,0 +1,29 @@
+{
+  "Services": {
+    "server": {
+      "Image": "maxsaezv/servercc@sha256:3f55dd7b3fbde60c833d1eb04dc97861e070c108815e7a64e0356db3b0c847d7",
+      "Networks": [
+        "default"
+      ],
+      "Ports": [
+        {
+          "Port": 5000,
+          "Protocol": "tcp"
+        }
+      ]
+    },
+    "web": {
+      "Image": "maxsaezv/clientcc@sha256:7279d07ea9e2b5f552d381e1a171b97fb6d92d7c1775edc4a002f839e9d44cc2",
+      "Networks": [
+        "default"
+      ],
+      "Ports": [
+        {
+          "Port": 3000,
+          "Protocol": "tcp"
+        }
+      ]
+    }
+  },
+  "Version": "0.1"
+}
