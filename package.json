@@ -29,7 +29,7 @@
     "redux": "^4.0.4",
     "redux-bees": "^0.1.11",
     "redux-devtools-extension": "^2.13.8",
-    "validator": "^12.1.0"
+    "validator": "^13.7.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.2"
